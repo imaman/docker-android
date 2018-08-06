@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+
+
+/usr/bin/supervisord --configuration supervisord.conf 
+
+# echo "before"
+# adb shell pm list packages calc
+#
+#
+# adb install apks/*.apk
+#
+# echo "after"
+# adb shell pm list packages calc
